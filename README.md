@@ -13,7 +13,7 @@ npm install vue-js-cookie
 Include in the `body` after loading Vue.js and it will automatically hook into Vue.
 
 ```
-<script src="/node_modules/vue-js-cookie/build/vue-js-cookie.js'"></script>
+<script src="/node_modules/vue-js-cookie/vue-js-cookie.min.js'"></script>
 ```
 
 ## Usage
