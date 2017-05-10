@@ -1,5 +1,7 @@
 # Vue JS Cookie
 
+A Vue plugin for managing cookies.
+
 ## Installation
 
 **NPM:**
