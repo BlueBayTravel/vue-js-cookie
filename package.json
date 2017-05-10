@@ -1,0 +1,23 @@
+{
+  "name": "vue-js-cookie",
+  "version": "1.0.0",
+  "main": "vue-js-cookie.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueBayTravel/vue-js-cookie.git"
+  },
+  "author": "James Brooks <james@bluebaytravel.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "js-cookie": "^2.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.2",
+    "vue": "^1.0.16",
+    "webpack": "^1.12.12"
+  },
+  "scripts": {
+    "build": "webpack example/example.js example/example.build.js && uglifyjs vue-js-cookie.js -c -m > vue-js-cookie.min.js",
+    "dev": "webpack --watch example/example.js example/example.build.js"
+  }
+}
