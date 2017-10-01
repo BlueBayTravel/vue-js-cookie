@@ -26,7 +26,7 @@
             return Cookies.getJSON(name)
         },
         remove: function (name, opts) {
-            this.remove(name, opts)
+            return Cookies.remove(name, opts)
         }
     }
 
